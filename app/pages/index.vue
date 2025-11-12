@@ -1,8 +1,16 @@
 <template>
   <h1>Home</h1>
-  <button @click="router.push('/contact')">Go to contact</button>
+  <hr />
+  <Card />
+  <Profile />
+  <Address />
+  <Other />
 </template>
 
-<script setup>
-const router = useRouter();
-</script>
+<style lang="scss">
+@use "~/assets/colors.scss";
+
+h1 {
+  color: colors.$alpha;
+}
+</style>
