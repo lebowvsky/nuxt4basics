@@ -10,4 +10,5 @@
 </template>
 <script setup>
 const users = getUsers("Miles");
+console.log(testComp());
 </script>
